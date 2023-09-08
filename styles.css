@@ -1,0 +1,798 @@
+html {
+  background-image: url(images/pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+  margin-right: 7.5%;
+}
+.title {
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+h1 {
+  font-size: 55pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -5%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  width: 10%;
+  height: 100%;
+  margin-left: 0%;
+  border-color: antiquewhite;
+  background-color: #121212;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.pythonprojects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-color: antiquewhite;
+  background-color: #121212;
+  position: absolute;
+  left: 50%;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  width: 40%;
+  height: 45%;
+  margin-right: 0%;
+  border-color: antiquewhite;
+  background-color: #121212;
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.info {
+  width: 80%;
+  height: 55%;
+  font-size: 3vw;
+  color: rgb(64, 172, 209);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 15%;
+}
+
+.pythonlogo {
+  width: 80%;
+  height: 55%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.icon-container {
+  text-align: center; /* Center the text horizontally */
+  margin: 15%; /* Add spacing between each icon container */
+}
+
+.button {
+  font-size: 25pt;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(17, 61, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  margin-top: -15%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: antiquewhite;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+}
+.htmllogo {
+  width: 75%;
+  height: 55%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.javalogo {
+  width: 80%;
+  height: 55%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.csslogo {
+  width: 80%;
+  height: 55%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.home {
+  width: 70%;
+  height: 100%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  cursor: pointer;
+}
+
+.pythonprojects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  width: 75%;
+  height: 80%;
+  background-color: #121212;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: -30%;
+}
+
+.projecttitle {
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+.passwordgen {
+  border-style: solid;
+  background-color: antiquewhite;
+  width: 40%;
+  height: 45%;
+  text-align: center;
+  cursor: pointer;
+}
+.projects {
+  font-size: 2vw;
+  color: rgb(32, 113, 234);
+  text-decoration: none;
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.homebutton {
+  font-size: 1.5vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(17, 61, 76);
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  margin-bottom: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5pt;
+}
+.homebutton:hover {
+  background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+  }
+  .title {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30%;
+  }
+  h1 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 20%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    width: 20%;
+    height: 100%;
+    margin-left: 0%;
+    border-color: antiquewhite;
+    background-color: #121212;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: auto;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 65%;
+    height: 45%;
+    margin-right: 0%;
+    border-color: antiquewhite;
+    background-color: #121212;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .info {
+    width: 76%;
+    font-size: 4vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    margin-bottom: -5%;
+    margin-left: 15%;
+  }
+
+  .pythonlogo {
+    width: 80%;
+    height: 55%;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .icon-container {
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .button {
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: antiquewhite;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: black;
+  }
+  .htmllogo {
+    width: 105%;
+    height: 55%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .javalogo {
+    width: 110%;
+    height: 55%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .csslogo {
+    width: 110%;
+    height: 55%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -2%;
+    margin-right: 7.5%;
+  }
+  .home {
+    width: 70%;
+    height: 100%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    cursor: pointer;
+  }
+
+  .pythonprojects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-style: solid;
+    width: 75%;
+    height: 80%;
+    background-color: #121212;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -15%;
+  }
+
+  .projecttitle {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+  .passwordgen {
+    border-style: solid;
+    background-color: antiquewhite;
+    width: 40%;
+    height: 45%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .projects {
+    font-size: 3vw;
+    color: rgb(32, 113, 234);
+    text-decoration: none;
+    background-color: antiquewhite;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+
+  .homebutton {
+    font-size: 1.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5pt;
+  }
+  .homebutton:hover {
+    background-color: antiquewhite;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+  }
+  .title {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30%;
+  }
+  h1 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 20%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    width: 15%;
+    height: 100%;
+    margin-left: 0%;
+    border-color: antiquewhite;
+    background-color: #121212;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: auto;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 65%;
+    height: 40%;
+    margin-right: 0%;
+    border-color: antiquewhite;
+    background-color: #121212;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .info {
+    width: 76%;
+    font-size: 3vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    margin-bottom: -5%;
+    margin-left: 15%;
+  }
+
+  .pythonlogo {
+    width: 65%;
+    height: 50%;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .icon-container {
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .button {
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: antiquewhite;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: black;
+  }
+  .htmllogo {
+    width: 80%;
+    height: 55%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .javalogo {
+    width: 85%;
+    height: 60%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .csslogo {
+    width: 85%;
+    height: 60%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -2%;
+    margin-right: 7.5%;
+  }
+
+  .home {
+    width: 70%;
+    height: 100%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    cursor: pointer;
+  }
+
+  .pythonprojects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-style: solid;
+    width: 75%;
+    height: 80%;
+    background-color: #121212;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -30%;
+  }
+
+  .projecttitle {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+  .passwordgen {
+    border-style: solid;
+    background-color: antiquewhite;
+    width: 40%;
+    height: 45%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .projects {
+    font-size: 2vw;
+    color: rgb(32, 113, 234);
+    text-decoration: none;
+    background-color: antiquewhite;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+
+  .homebutton {
+    font-size: 1.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5pt;
+  }
+  .homebutton:hover {
+    background-color: antiquewhite;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+  }
+  .title {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 15%;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 20%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    width: 10%;
+    height: 105%;
+    margin-left: 0%;
+    background-color: #121212;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: auto;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 55%;
+    height: 40%;
+    margin-right: 0%;
+    border-color: antiquewhite;
+    background-color: #121212;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .info {
+    width: 76%;
+    font-size: 2vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    margin-bottom: -5%;
+    margin-left: 15%;
+  }
+
+  .pythonlogo {
+    width: 65%;
+    height: 50%;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .icon-container {
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .button {
+    font-size: 1.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5pt;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: black;
+  }
+  .htmllogo {
+    width: 80%;
+    height: 55%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .javalogo {
+    width: 85%;
+    height: 60%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -3%;
+    margin-right: 7.5%;
+  }
+
+  .csslogo {
+    width: 85%;
+    height: 60%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: -2%;
+    margin-right: 7.5%;
+  }
+  .home {
+    width: 70%;
+    height: 100%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    cursor: pointer;
+  }
+
+  .pythonprojects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-style: solid;
+    width: 75%;
+    height: 80%;
+    background-color: #121212;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -30%;
+  }
+
+  .projecttitle {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+  .passwordgen {
+    border-style: solid;
+    background-color: antiquewhite;
+    width: 40%;
+    height: 45%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .projects {
+    font-size: 2vw;
+    color: rgb(32, 113, 234);
+    text-decoration: none;
+    background-color: antiquewhite;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+
+  .homebutton {
+    font-size: 1.5vw;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(17, 61, 76);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5pt;
+  }
+  .homebutton:hover {
+    background-color: antiquewhite;
+  }
+}
