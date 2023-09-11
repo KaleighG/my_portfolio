@@ -63,7 +63,14 @@ h1 {
   bottom: 0%;
   right: 0%;
 }
-
+.link {
+  width: 76%;
+  font-size: 3vw;
+  color: rgb(64, 172, 209);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
 .info {
   width: 80%;
   height: 55%;
@@ -280,6 +287,14 @@ h1 {
     bottom: 0%;
     right: 0%;
   }
+  .link {
+    width: 76%;
+    font-size: 3.5vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+  }
 
   .info {
     width: 76%;
@@ -490,6 +505,14 @@ h1 {
     position: absolute;
     bottom: 0%;
     right: 0%;
+  }
+  .link {
+    width: 76%;
+    font-size: 2vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
   }
 
   .info {
@@ -705,7 +728,14 @@ h1 {
     bottom: 0%;
     right: 0%;
   }
-
+  .link {
+    width: 76%;
+    font-size: 2vw;
+    color: rgb(64, 172, 209);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+  }
   .info {
     width: 76%;
     font-size: 2vw;
